@@ -1,0 +1,14 @@
+{
+  "name": "@christoffercarlsson/commitlint-config",
+  "version": "0.2.1",
+  "license": "Unlicense",
+  "repository": "https://github.com/christoffercarlsson/commitlint-config",
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "commitlint.config.js",
+  "peerDependencies": {
+    "@commitlint/cli": "^8.3.5",
+    "@commitlint/config-conventional": "^8.3.4"
+  }
+}
