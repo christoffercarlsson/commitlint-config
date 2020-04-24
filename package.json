@@ -1,11 +1,16 @@
 {
   "name": "@christoffercarlsson/commitlint-config",
-  "version": "0.2.1",
+  "version": "0.3.0",
+  "description": "My commitlint configuration",
   "license": "Unlicense",
-  "repository": "https://github.com/christoffercarlsson/commitlint-config",
+  "repository": "git://github.com/christoffercarlsson/commitlint-config.git",
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "registry": "https://npm.pkg.github.com/"
   },
+  "files": [
+    "commitlint.config.js"
+  ],
   "main": "commitlint.config.js",
   "peerDependencies": {
     "@commitlint/cli": "^8.3.5",
