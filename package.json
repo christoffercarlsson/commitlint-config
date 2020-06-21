@@ -1,6 +1,6 @@
 {
   "name": "@christoffercarlsson/commitlint-config",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "My commitlint configuration",
   "license": "Unlicense",
   "repository": "git://github.com/christoffercarlsson/commitlint-config.git",
@@ -9,11 +9,11 @@
     "registry": "https://npm.pkg.github.com/"
   },
   "files": [
-    "commitlint.config.js"
+    "commitlintrc.json"
   ],
-  "main": "commitlint.config.js",
+  "main": "commitlintrc.json",
   "peerDependencies": {
-    "@commitlint/cli": "^8.3.5",
-    "@commitlint/config-conventional": "^8.3.4"
+    "@commitlint/cli": "^9.0.1",
+    "@commitlint/config-conventional": "^9.0.1"
   }
 }
